@@ -80,11 +80,11 @@ class App extends React.Component {
     ReactGA.set({ page: "dbm_demo_page" });
     ReactGA.pageview("dbm_demo_page");
 
-		return (
-			<SplitFactory config={sdkConfig} updateOnSdkUpdate={true}>
+    return (
+	<SplitFactory config={sdkConfig} updateOnSdkUpdate={true}>
 	      <MyComponent />
-	    </SplitFactory>
-		);
-	}
+	</SplitFactory>
+	);
+    }
 }
 export default App;
