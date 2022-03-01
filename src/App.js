@@ -51,7 +51,7 @@ class MyComponent extends React.Component {
 
 const sdkConfig = {
     core: {
-        authorizationKey: "3m17636s132i2krt28o982cbe0o0qpi0honr",
+        authorizationKey: "your split sdk key",
         key: uuid,
         labelsEnabled: true,
         trafficType: 'user'
@@ -69,7 +69,7 @@ const sdkConfig = {
 
 class App extends React.Component {
 	render() {
-    const trackingId = "UA-128478641-2";
+    const trackingId = "UA-YOUR GA TRACKING ID-2";
     ReactGA.initialize(trackingId, {
       gaOptions: {
         userId: uuid,
